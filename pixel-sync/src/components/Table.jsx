@@ -87,6 +87,7 @@ table{
 }
 
 h2{
+    padding-top: 5px;
     font-size: 23.2px;
     font-weight: 500;
     color: #363949;
