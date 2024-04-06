@@ -9,7 +9,7 @@ const Block = (props) => {
         <p>{props.text}</p>
         <h1>{props.symbol}{props.amount}</h1>
         </div>
-        <div className='percentage'>{props.percent}</div>
+        <div className='percentage' style={{borderColor:props.color}}>{props.percent}</div>
         </div>
         
     </div>

@@ -7,9 +7,9 @@ function Statistics() {
       <h1>Statistics </h1>
         
           <div className='stats'>      
-          <Block text="Revenue" width="280px" amount="25,00,000"  percent="+70%"></Block>
-          <Block text="Visits" width="230px" amount="2,359" symbol="" percent="-16%"></Block>
-        <Block text="Results" width="230px" amount="6,789" symbol="" percent="+21%"></Block>
+          <Block text="Revenue" width="280px" amount="25,00,000"  percent="+70%" color="#1b9c8"></Block>
+          <Block text="Visits" width="230px" amount="2,359" symbol="" percent="-16%" color="#ff0060"></Block>
+        <Block text="Results" width="230px" amount="6,789" symbol="" percent="+21%" color="#195bce"></Block>
         </div>
     </div>
   );
