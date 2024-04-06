@@ -1,0 +1,37 @@
+.usercontainer {
+    margin-top: 1rem;
+
+    display: flex;
+    gap: 1.4rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  h2{
+    font-size: 23.2px;
+    font-weight: 500;
+    color: #363949;
+}
+  .card {
+    width: calc(25% - 20px); 
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .card img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .details {
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: calc(50% - 20px); 
+    }
+  }
+  

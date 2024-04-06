@@ -3,16 +3,21 @@ import { useState } from 'react'
 // import viteLogo from '/vite.svg'
 import './App.css'
 import Sidebar from './components/Sidebar'
-import Navbar from './components/Navbar'
+import Users from './components/Users'
 import Table from './components/Table'
+import Navbar from './components/Navbar'
 function App() {
-  const [dark, setDark] = useState(0)
-
+const [dark,setDark]=useState(0);
   return (
     <div className='container'>
-      <Navbar dark={dark} setDark={setDark} />
-      <Sidebar />
+       <Sidebar/>
+       <div className='main'>
+        
+       <Users/>
       <Table />
+       </div>
+        <Navbar dark={dark} setDark={setDark} />
+
     </div>
   )
 }
