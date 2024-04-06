@@ -8,6 +8,12 @@
     top: 1.5rem;
     transition: all 0.3s ease;
 }    
+.logoimg{
+    width: 28px;
+}
+.logoimg img{
+    width: 100%;
+}
 .sideBar .sideBarOptions{
     display: flex;
     align-items: center;

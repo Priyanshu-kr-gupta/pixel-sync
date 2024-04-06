@@ -10,6 +10,7 @@ import { BsShopWindow } from "react-icons/bs";
 import { BiCross, BiLogOut } from "react-icons/bi";
 import { TbReportSearch } from "react-icons/tb";
 import { GiHamburgerMenu } from "react-icons/gi";
+import Logo from "../assets/images/logo.jpeg"
 import { RxCross2 } from "react-icons/rx";
 export default function Sidebar() {
 
@@ -18,7 +19,7 @@ export default function Sidebar() {
     <div className='side'>
         <div className='toggle'>
                 <div className='logo'>
-                    <div className='logoimg'>  logo </div>
+                    <div className='logoimg'>  <img src={Logo} alt="" /> </div>
                     <p style={{display:"flex"}}><h2>Pixel</h2><h2 style={{color:"Red"}}>Sync</h2></p>
                     
                 </div>
