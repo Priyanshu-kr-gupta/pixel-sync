@@ -1,9 +1,16 @@
-.container {
+.usercontainer {
+    margin-top: 1rem;
+
     display: flex;
+    gap: 1.4rem;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  
+  h2{
+    font-size: 23.2px;
+    font-weight: 500;
+    color: #363949;
+}
   .card {
     width: calc(25% - 20px); 
     margin-bottom: 20px;
