@@ -1,8 +1,8 @@
 import React from 'react'
-import { RxCross2 } from "react-icons/rx";
 import Pic1 from "../assets/images/pic1.jpg"
 import Pic2 from "../assets/images/pic2.jpg"
 import Pic3 from "../assets/images/pic3.jpg"
+import pic4 from "../assets/images/plus.png"
 import "../Css/Users.css"
 export default function Users() {
   return (
@@ -31,8 +31,8 @@ export default function Users() {
       <p>User 3 Details...</p>
     </div>
   </div>
-  <div class="card">
-  <RxCross2/>
+  <div class="card" style={{fontSize:"200px"}}>
+  <img src={pic4} alt="User 2"/>
   </div>
 </div>
 

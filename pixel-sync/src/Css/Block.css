@@ -1,0 +1,39 @@
+.block{
+    border-radius: 2rem;
+    background-color: white;
+    padding: 25px;
+    margin-top: 14px;
+    width: fit-content;
+    margin-right: 20px;
+}
+p{
+    font-size: 14px;
+    margin: 0px;
+    margin-left: 0.6rem;
+}
+.content{
+    display: flex;
+    width: fit-content;
+    justify-content: space-between;
+    height: 91px;
+    
+    align-items: center;
+}
+
+
+.in{
+    display: inline-block;
+}
+
+.percentage{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+    width: 72px;
+    /* background-color: yellow; */
+
+    border-radius: 50%;
+    border: 10px solid red;
+}

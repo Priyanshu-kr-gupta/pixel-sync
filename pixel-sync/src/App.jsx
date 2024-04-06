@@ -6,13 +6,14 @@ import Sidebar from './components/Sidebar'
 import Users from './components/Users'
 import Table from './components/Table'
 import Navbar from './components/Navbar'
+import Statistics from './components/statistics'
 function App() {
 const [dark,setDark]=useState(0);
   return (
     <div className='container'>
        <Sidebar/>
        <div className='main'>
-        
+        <Statistics/>
        <Users/>
       <Table />
        </div>
